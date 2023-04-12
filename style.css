@@ -89,3 +89,83 @@ header nav a:hover{
     75%{margin-left: -300%;}
     100%{margin-left: -300%;}    
 }
+.product{
+    background-color: rgb(12, 15, 36);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.product h2{
+    font-size: 3rem;
+    margin: 3rem 0;
+    color: white;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.card{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(to top left, #ecde81,rgb(12, 15, 36));;
+}
+.card_1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 85%;
+    color: white;
+}
+.card_11{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+.card_11 p{
+    width: 3rem;
+}
+.card_11 img{
+    width: 3rem;
+}
+.card_12 h3{
+    margin: 1rem 0;
+}
+.card_13{
+    width: 75%;
+}
+.card_13 img{
+    width: 100%;
+}
+.card_2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 0 8px 8px;
+}
+.card_2 button{
+    margin: 2rem 0;
+    border-radius: 12px;
+    border: rgb(12, 15, 36) solid 3px;
+    padding: 0.5rem 3rem;
+    font-size: larger;
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+}
+.card_2 button:hover{
+    background-color: rgb(12, 15, 36);
+    transition: all 0.2s ease;
+}
