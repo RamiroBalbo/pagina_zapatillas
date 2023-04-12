@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: sans-serif;
 }
 header{
     height: 10vh;
@@ -27,6 +28,10 @@ header nav a{
     text-decoration: none;
     font-size: 1.2rem;
 }
+header nav a:hover{
+    border-bottom: 2px solid white;
+    transition: all 0.2s ease;
+}
 .home{
     display: flex;
     align-items: center;
@@ -42,7 +47,10 @@ header nav a{
 }
 .home_1 h1{
     color: white;
-    font-size: 7rem;
+    font-size: 6.5rem;
+}
+.home_1 h1 b{
+    color: rgb(255, 255, 0);
 }
 .home_1 p{
     width: 90%;
