@@ -318,19 +318,25 @@ footer div img{
 .about-us p{
     margin-top: 0.2rem;
 }
+.about-us img{
+    width: 100%;
+    opacity: 0.5;
+}
+.about-us img:hover{
+    transform: scale(1.2);
+    transition: all ease 1s;
+}
 .about-us_21{
     width: 70%;
 }
 .teamwork{
     width: 93%;
-}
-.teamwork img{
-    width: 100%;
-    opacity: 0.5;
+    overflow: hidden;
+    position: relative;
 }
 .teamwork div{
-    position: relative;
-    bottom: 4rem;
+    position: absolute;
+    bottom: 2rem;
     left: 2rem;
 }
 .about-us_22{
@@ -340,20 +346,41 @@ footer div img{
     justify-content: center;
     width: 30%;
 }
-.about-us_22 div{
+.philosophy{
     width: 100%;
-}
-.about-us_22 div img{
-    width: 100%;
-    opacity: 0.5;
+    overflow: hidden;
+    position: relative;
 }
 .philosophy div{
-    position: relative;
-    bottom: 4rem;
+    position: absolute;
+    bottom: 2rem;
     left: 2rem;
 }
-.office div{
+.office{
     position: relative;
-    bottom: 4rem;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 12%;
+}
+.office div{
+    position: absolute;
+    bottom: 2rem;
     left: 2rem;
+}
+.about-us_3{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 6rem 0;
+}
+.about-us_3 div{
+    width: 24%;
+}
+.about-us_3 div p{
+    line-height: 1.5rem;
+}
+.about-us_3 div h3{
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
 }
