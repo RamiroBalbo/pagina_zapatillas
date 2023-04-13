@@ -276,3 +276,84 @@ footer div img{
     width: 3rem;
     cursor: pointer;
 }
+.about-us{
+    background-color: rgb(12, 15, 36);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.about-us_1{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 90%;
+    margin-top: 6rem;
+}
+.about-us_11{
+    width: 30%;
+}
+.about-us_11 h2{
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+.about-us_11 p{
+    color: #ecde83;
+}
+.about-us_12{
+    width: 60%;
+}
+.about-us_12 p{
+    margin-top: 0.8rem;
+    line-height: 1.2rem;
+}
+.about-us_2{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.about-us p{
+    margin-top: 0.2rem;
+}
+.about-us_21{
+    width: 70%;
+}
+.teamwork{
+    width: 93%;
+}
+.teamwork img{
+    width: 100%;
+    opacity: 0.5;
+}
+.teamwork div{
+    position: relative;
+    bottom: 4rem;
+    left: 2rem;
+}
+.about-us_22{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+}
+.about-us_22 div{
+    width: 100%;
+}
+.about-us_22 div img{
+    width: 100%;
+    opacity: 0.5;
+}
+.philosophy div{
+    position: relative;
+    bottom: 4rem;
+    left: 2rem;
+}
+.office div{
+    position: relative;
+    bottom: 4rem;
+    left: 2rem;
+}
