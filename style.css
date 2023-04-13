@@ -17,7 +17,7 @@ header div img{
     width: 100%;
 }
 header nav{
-    width: 30%;
+    width: 35%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -210,7 +210,7 @@ header nav a:hover{
     border-radius: 8px;
     height: 5vh;
     margin: 0.5rem 0;
-    padding: 0 0.5rem;
+    padding-left: 0.5rem;
     transition: all 1s ease;
     border: solid rgb(12, 15, 36) 1px;
 }
@@ -228,7 +228,7 @@ header nav a:hover{
     height: 5vh;
     margin-top: 0.5rem;
     margin-bottom: 2rem;
-    padding: 0 0.5rem;
+    padding-left: 0.5rem;
     border: solid rgb(12, 15, 36) 1px;
 }
 .input_3{
@@ -383,4 +383,26 @@ footer div img{
 .about-us_3 div h3{
     margin-bottom: 2rem;
     font-size: 1.8rem;
+}
+@media screen and (max-width: 1000px) {
+    header nav{
+        width: 50%;;
+        margin-bottom: 0.8rem;
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+    }
+    .card{
+        width: 30%;
+    }
+    header div{
+        width: 15%;
+    }
+    .about-us_11 h2{
+        font-size: 2rem;
+    }
+    .contact form{
+        width: 60%;   
+    }
 }
