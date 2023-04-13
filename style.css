@@ -115,7 +115,7 @@ header nav a:hover{
     justify-content: center;
     border: none;
     border-radius: 8px;
-    background: linear-gradient(to top left, #ecde81,rgb(12, 15, 36));;
+    background: linear-gradient(to top left, #ecde81,rgb(12, 15, 36));
 }
 .card_1{
     display: flex;
@@ -162,10 +162,117 @@ header nav a:hover{
     padding: 0.5rem 3rem;
     font-size: larger;
     color: white;
-    background-color: transparent;
+    background-color: rgb(12, 15, 36);
     cursor: pointer;
 }
 .card_2 button:hover{
-    background-color: rgb(12, 15, 36);
+    box-shadow: 0 0 10px rgb(12, 15, 36);
+    padding: 0.6rem 3.2rem;
+    transition: all 0.5s ease;
+}
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.contact h2{
+    color: rgb(12, 15, 36);
+    font-size: 3rem;
+    margin: 6rem 0 0 0;
+}
+.contact form{
+    width: 40%;
+    margin: 3rem 0;
+}
+.form_1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.form_2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.form_1 div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 47%;
+    margin-bottom: 2rem;
+}
+.input_1{
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    height: 5vh;
+    margin: 0.5rem 0;
+    padding: 0 0.5rem;
+    transition: all 1s ease;
+    border: solid rgb(12, 15, 36) 1px;
+}
+.form_2 div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+}
+.input_2{
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    height: 5vh;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    padding: 0 0.5rem;
+    border: solid rgb(12, 15, 36) 1px;
+}
+.input_3{
+    width: 100%;
+    padding: 0.5rem 0 20vh 0.5rem;
+    border: none;
+    border-radius: 8px;
+    margin-top: 0.5rem;
+    border: solid rgb(12, 15, 36) 1px;
+}
+input:hover{
+    color: rgb(255, 255, 255) !important;
+    box-shadow: 0 0 10px #ecde81;
     transition: all 0.2s ease;
+}
+.contact button{
+    padding: 0.8rem 5rem;
+    margin-bottom: 3rem;
+    border-radius: 8px;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    background-color: rgb(12, 15, 36);
+    cursor: pointer;
+}
+.contact button:hover{
+    padding: 1rem 6rem;
+    box-shadow: 0 0 10px #ecde81;
+    transition: all 0.5s ease;
+}
+footer{
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to top left, #ecde83,rgb(12, 15, 36));
+}
+footer div{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+footer div img{
+    width: 3rem;
+    cursor: pointer;
 }
