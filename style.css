@@ -414,6 +414,9 @@ footer div img{
     header nav a{
         font-size: 10px;
     }
+    .home{
+        height: 20rem;
+    }
     .home h1{
         font-size: 3rem;
     }
